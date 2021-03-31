@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.752 s <<< FAILURE! - in TestSuite
+com.xeneta.ClickingCircleTests.watchVideoCircle  Time elapsed: 6.992 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="bullets-circle section-bg" style="background:#F9f9f9 url(https://www.xeneta.com/hubfs/Accessible.png) no-repeat">...</div> is not clickable at point (308, 741). Other element would receive the click: <div id="hs-eu-cookie-confirmation-inner">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8NDP6L68', ip: '172.30.128.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Wattero\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c1871fe9df2a4e67aa14dadcc0c6778
+	at com.xeneta.ClickingCircleTests.watchVideoCircle(ClickingCircleTests.java:53)
+
